@@ -1,11 +1,8 @@
-import os
-import time
 import cv2
 import numpy as np
 from scipy.signal import correlate2d as corr, convolve2d as conv
-import pywt
 from matplotlib import pyplot as plt
-import shutil 
+
 
 
 I = cv2.imread('D:/IMAGEE SEG/Registered imgs/2j/2j_segmented.jpg')
